@@ -1,7 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 import miniProject_C from "../assets/projects/C.png";
 import Project_final from "../assets/projects/final.png";
 import Project_Internship from "../assets/projects/in.jpg";
