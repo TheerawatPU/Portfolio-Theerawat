@@ -1,4 +1,3 @@
-
 import miniProject_C from "../assets/projects/C.png";
 import Project_final from "../assets/projects/final.png";
 import Project_Internship from "../assets/projects/in.jpg";
@@ -10,13 +9,21 @@ export const NAME = "Theerawat Puangjampee";
 export const Nickname = `A`;
 export const Date_OF_BIRTH = ` 02/02/2001`;
 export const AGE = `23`;
+export const SEX = `male`;
 export const NATIONALITY = ` Thai`;
 export const MARITAL_STATUS = ` Single`;
-export const MOBLIE = ` 093 502 6837`;
+export const MOBLIE = ` 093-502-6837`;
 export const EMAIL = `Theerawat.pu.work@gmail.com`;
 export const ADDRESS = ` 101 No.8 , Non Sila Sub-district,Pak Khat District, Bueng Kan, 38190`;
 
 export const EXPERIENCES = [
+  {
+    year: "MAY 2024 - OCT 2024",
+    role: "Developer (FullStack)",
+    company: "AVA SOLUTIONS WORK CO.,LTD.",
+    description: `My primary responsibility is to develop software as assigned by the Team Lead, covering both Frontend and Backend development. This involves delivering results that align with UX/UI designs, adhere to the specifications outlined in documentation, and meet customer requirements. Additionally, I write queries to retrieve data from PostgreSQL and Oracle PL/SQL databases to ensure the program functions correctly. Once the development is complete, I hand it over to the Tester team to evaluate its performance and identify any defects. I also address any issues found to ensure the program is fully functional and ready for deployment.`,
+    technologies: ["HTML","CSS","Javascript","Java", "Postgres", "Oracle"],
+  },
   {
     year: "NOV 2023 - MAR 2024",
     role: "BackEnd Developer (Internship)",
@@ -61,21 +68,21 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Business Programming Developed (Mimi Project)",
+    title: "Business Programming Developed (Mini Project)",
     image: miniProject_C,
     description:
       "This mini project was developed during my university studies, as part of the Business Programming course. It's a system designed to store various data of employees in a simulated workplace. The project was developed using C# .NET and Microsoft SQL Server.",
     technologies: ["C# .net", "Microsoft SQL Server"],
   },
   {
-    title: "Mobile Application Development Training Project (Mimi Project)",
+    title: "Mobile Application Development Training Project (Mini Project)",
     image: P249,
     description:
       "This mini project was developed during my time studying at the university, as part of the Mobile Application Development Training Project  course. It involved creating a mobile application related to tourism, where users can add new tourist destinations or points of interest they can visit. The application was developed using Flutter.",
     technologies: ["Flutter"],
   },
   {
-    title: "Internet Programming Developed (Mimi Project)",
+    title: "Internet Programming Developed (Mini Project)",
     image: P249,
     description:
       "This mini project was developed during my time at university, as part of the Internet Programming course. It's a system designed to store various data of employees in a simulated workplace. The system was developed using HTML, CSS, JavaScript, Bootstrap, and MySQL.",
@@ -84,7 +91,7 @@ export const PROJECTS = [
 
   {
     title:
-      "Application Development for Moblie Devices Developed (Mimi Project)",
+      "Application Development for Moblie Devices Developed (Mini Project)",
     image: P249,
     description:
       "This mini project was developed during my time at university, as part of the Application Development for Mobile Devices course. It involved creating a dictionary app for supercars, capable of providing details about each model, brand, and specifications. The app was developed using Ionic and TypeScript.",

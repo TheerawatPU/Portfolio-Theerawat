@@ -25,7 +25,7 @@ const Project = () => {
             >
               <img
                 src={project.image}
-                width={150}
+                width={300}
                 height={150}
                 alt={project.title}
                 // alt={project.title}

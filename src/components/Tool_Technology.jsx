@@ -9,6 +9,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { AiOutlineJava } from "react-icons/ai";
 import { SiPhp } from "react-icons/si";
+import { SiOracle } from "react-icons/si";
 
 import MysqlLogo from "../assets/MySQL.webp";
 
@@ -113,6 +114,14 @@ const Tool_Technology = () => {
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <BiLogoPostgresql className="text-7xl text-sky-700 " />
         </div>
+        <motion.div
+          variants={iconVariants(1)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiOracle className="text-7xl text-red-500 " />
+        </motion.div>
       </motion.div>
     </div>
   );

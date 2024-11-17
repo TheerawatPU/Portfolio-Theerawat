@@ -1,5 +1,5 @@
 // ข้อมูลส่วนตัว
-import about from "../assets/abountThee.jpg";
+import about from "../assets/29859843-(1).png";
 import { motion } from "framer-motion";
 
 import {
@@ -12,6 +12,7 @@ import {
   MOBLIE,
   EMAIL,
   ADDRESS,
+  SEX
 } from "../constants";
 
 const Personal_Information = () => {
@@ -28,7 +29,7 @@ const Personal_Information = () => {
           transition={{ duration: 0.5 }}
           className=" w-full lg:w-1/2 lg:p-8"
         >
-          <div className=" flex items-center justify-center">
+          <div className=" flex items-center justify-center mx-4">
             <img className="rounded-2xl" src={about} alt="about" />
           </div>
         </motion.div>
@@ -38,37 +39,40 @@ const Personal_Information = () => {
           transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2"
         >
-          <div className="flex flex-col justify-center lg:justify-start">
-            <p className="mt-8 max-w-xl py-2">
+          <div className="flex flex-col justify-center lg:justify-start text-xl">
+            <p className="mt-8 max-w-xl py-3">
               Name:
               <span className="text-neutral-400 ms-3"> {NAME} </span>
             </p>
-            <p className="my-0 max-w-xl py-2">
+            <p className="my-0 max-w-xl py-3">
               Nickname:
               <span className="text-neutral-400 ms-3"> {Nickname} </span>
             </p>
-            <p className="my-0 max-w-xl py-2">
+            <p className="my-0 max-w-xl py-3">
               Date of Birth:
               <span className="text-neutral-400 ms-3"> {Date_OF_BIRTH} </span>
             </p>
-            <p className="my-0 max-w-xl py-2">
+            <p className="my-0 max-w-xl py-3">
               Age: <span className="text-neutral-400 ms-3"> {AGE} </span>
             </p>
-            <p className="my-0 max-w-xl py-2">
+            <p className="my-0 max-w-xl py-3">
+              Sex: <span className="text-neutral-400 ms-3"> {SEX} </span>
+            </p>
+            <p className="my-0 max-w-xl py-3">
               Nationality:
               <span className="text-neutral-400 ms-3"> {NATIONALITY} </span>
             </p>
-            <p className="my-0 max-w-xl py-2">
+            <p className="my-0 max-w-xl py-3">
               Marital Status:
               <span className="text-neutral-400 ms-3"> {MARITAL_STATUS} </span>
             </p>
-            <p className="my-0 max-w-xl py-2">
+            <p className="my-0 max-w-xl py-3">
               Tel: <span className="text-neutral-400 ms-3"> {MOBLIE} </span>
             </p>
-            <p className="my-0 max-w-xl py-2">
+            <p className="my-0 max-w-xl py-3">
               Email: <span className="text-neutral-400 ms-3"> {EMAIL} </span>
             </p>
-            <p className="my-0 max-w-xl py-2">
+            <p className="my-0 max-w-xl py-3">
               Residential Address:
               <span className="text-neutral-400 ms-3"> {ADDRESS} </span>
             </p>
